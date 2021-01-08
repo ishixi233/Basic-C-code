@@ -26,7 +26,7 @@
          int XSCUX = 0;
          for(int i1=0; i1 < len; i1++ )
        {
-          if (str[i1] == 'S'&&str[i1+1] == 'c'&&str[i1+2] == 'U')
+          if (str[i1] == 'S'&&str[i1+1] == 'C'&&str[i1+2] == 'U')
          {
           XSCUX = i1;
           break;
@@ -52,9 +52,15 @@
 						state2 = 1;
 						break;
 					  } 
-				    if(state1 == 0 && state2 == 0)
-					printf("YES\n");
+				    
                     }
+                if(state1 == 0 && state2 == 0)
+					printf("YES\n");
+                else
+                {
+                    printf("NO\n");
+                }
+                
                 }
      }
    }
